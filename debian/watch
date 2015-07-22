@@ -1,0 +1,2 @@
+version=3
+https://github.com/opentelecoms-org/java-sip-api/tags .*/tarball/(\d[\d\.]+)

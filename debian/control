@@ -1,0 +1,17 @@
+Source: sip-api
+Section: java
+Priority: optional
+Maintainer: Debian Java Maintainers <pkg-java-maintainers@lists.alioth.debian.org>
+Uploaders: Daniel Pocock <daniel@pocock.pro>
+Build-Depends: debhelper (>= 9), cdbs (>= 0.4.5.3), default-jdk
+Build-Depends-Indep: maven-repo-helper (>> 0.5), maven-ant-helper (>> 4), ant, ant-optional,
+Standards-Version: 3.9.6
+Homepage: https://github.com/opentelecoms-org/java-sip-api
+Vcs-Git: https://github.com/opentelecoms-org/java-sip-api
+Vcs-Browser: https://github.com/opentelecoms-org/java-sip-api
+
+Package: libsip-api-java
+Architecture: all
+Depends: ${misc:Depends}
+Description: SIP API for Java
+ This package provides interfaces for the javax.sip API.

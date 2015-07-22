@@ -1,0 +1,10 @@
+Format: http://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
+Upstream-Name: sip-api
+Upstream-Contact: Daniel Pocock <daniel@pocock.pro>
+Source: https://github.com/opentelecoms-org/java-sip-api
+
+Files: *
+Copyright: 2015, Daniel Pocock http://danielpocock.com
+License: Apache-2.0
+ The full text of the Apache-2.0 license can be found in
+ /usr/share//common-licenses/Apache-2.0 on your Debian system.

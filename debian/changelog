@@ -1,0 +1,6 @@
+sip-api (1.2-1) unstable; urgency=low
+
+  * Initial packaging (Closes: #xxxxxx)
+
+ -- Daniel Pocock <daniel@pocock.pro>  Wed, 22 Jul 2015 16:18:48 +0200
+
