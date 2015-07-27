@@ -20,6 +20,9 @@ import java.io.Serializable;
 
 public final class DialogState implements Serializable {
 
+	private static final int mSize = 4;
+	private static DialogState[] mDialogStateArray = new DialogState[mSize];
+
 	public static final int _EARLY = 0;
 	public static final DialogState EARLY = new DialogState(_EARLY);
 	public static final int _CONFIRMED = 1;
@@ -30,14 +33,12 @@ public final class DialogState implements Serializable {
 	public static final DialogState TERMINATED = new DialogState(_TERMINATED);
 
 	private static final long serialVersionUID = 1L;
-	private static final int mSize = 4;
 	private static final String[] NAMES = {
 			"Early Dialog",
 			"Confirmed Dialog",
 			"Completed Dialog",
 			"Terminated Dialog"
 		};
-	private static DialogState[] mDialogStateArray = new DialogState[mSize];
 
 	private int mDialogState;
 

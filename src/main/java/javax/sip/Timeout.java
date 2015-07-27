@@ -22,6 +22,9 @@ public final class Timeout implements Serializable {
 
 	private static final long serialVersionUID = 1L;
 
+	private static final int mSize = 2;
+	private static Timeout[] mTimeoutArray = new Timeout[mSize];
+
 	public final static int _RETRANSMIT = 0;
 	public final static Timeout RETRANSMIT = new Timeout(_RETRANSMIT);
 	public final static int _TRANSACTION = 1;
@@ -31,8 +34,6 @@ public final class Timeout implements Serializable {
 			"Retransmission Timeout",
 			"Transaction Timeout"
 		};
-	private static final int mSize = 2;
-	private static Timeout[] mTimeoutArray = new Timeout[mSize];
 
 	private int mTimeout;
 
