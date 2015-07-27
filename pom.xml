@@ -3,8 +3,8 @@
   <modelVersion>4.0.0</modelVersion>
 
   <groupId>org.opentelecoms.sip</groupId>
-  <artifactId>sip-api</artifactId>
-  <version>1.2</version>
+  <artifactId>sip-api-1.2</artifactId>
+  <version>1.1</version>
   <packaging>bundle</packaging>
 
   <name>sip-api</name>
