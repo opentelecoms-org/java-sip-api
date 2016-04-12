@@ -94,6 +94,11 @@
             <Import-Package>
               *
             </Import-Package>
+            <!-- This library uses reflection in the factories to create the
+                 SIP stack classes. These can be in any other bundle that will
+                 never be known to us. Make them available with dynamic imports.
+            -->
+            <DynamicImport-Package>*</DynamicImport-Package>
             <Implementation-Title>sip-api</Implementation-Title>
             <Implementation-Version>${project.version}</Implementation-Version>
           </instructions>
